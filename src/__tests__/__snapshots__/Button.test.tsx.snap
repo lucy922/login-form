@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Matches snapshot 1`] = `
+<button
+  className="p-2 rounded text-center text-white bg-red-800  w-32"
+  name="button"
+  type="submit"
+>
+  Login
+</button>
+`;
+
+exports[`Button component should render primary button 1`] = `
+<button
+  className="p-2 rounded text-center text-white bg-blue-800  w-32"
+  name="button"
+  type="submit"
+  variant="primary"
+>
+  primary
+</button>
+`;
+
+exports[`Button component should render secondary button 1`] = `
+<button
+  className="p-2 rounded text-center text-white bg-red-800  w-32"
+  name="button"
+  type="submit"
+  variant="secondary"
+>
+  secondary
+</button>
+`;
+
+exports[`Button component should render size md 1`] = `
+<button
+  className="p-2 rounded text-center text-white bg-red-800  w-32"
+  name="button"
+  size="md"
+  type="submit"
+>
+  medium
+</button>
+`;
+
+exports[`Button component should render size sm 1`] = `
+<button
+  className="p-2 rounded text-center text-white bg-red-800 w-24"
+  name="button"
+  size="sm"
+  type="submit"
+>
+  small
+</button>
+`;
